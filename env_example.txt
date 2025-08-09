@@ -1,0 +1,31 @@
+# Evolution Gaming Roulette Collector Configuration
+# Copy this file to .env and modify as needed
+
+# Discord Webhook URL (already configured in config.py)
+# DISCORD_WEBHOOK_URL=https://discord.com/api/webhooks/your-webhook-url
+
+# Casino Configuration
+# CASINO_URL=https://www.seguro.bet.br/slots/all/320/evolution/66120-2170889-immersive-roulette
+
+# Local HTML Integration
+# LOCAL_HTML_ENDPOINT=http://localhost:3001/result
+
+# Browser Settings
+# BROWSER_HEADLESS=false
+# BROWSER_WIDTH=1920
+# BROWSER_HEIGHT=1080
+
+# Session Management
+# SESSION_TIMEOUT_MINUTES=120
+# AUTO_RECONNECT=true
+
+# Result Collection
+# SCAN_INTERVAL_SECONDS=1
+
+# Logging
+# LOG_LEVEL=INFO
+# LOG_FILE=roulette_collector.log
+
+# OCR Settings
+# OCR_ENABLED=true
+# OCR_CONFIDENCE_THRESHOLD=0.7

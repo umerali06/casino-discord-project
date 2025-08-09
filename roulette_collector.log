@@ -1,0 +1,81 @@
+2025-08-09 23:41:40,471 - __main__ - INFO - Starting Roulette Results Collector...
+2025-08-09 23:42:03,923 - roulette_detector - INFO - Browser initialized successfully
+2025-08-09 23:42:12,992 - local_html_client - WARNING - Local HTML system not available
+2025-08-09 23:42:13,031 - __main__ - INFO - Roulette Collector started successfully!
+2025-08-09 23:42:13,060 - __main__ - INFO - Monitoring: Immersive Roulette
+2025-08-09 23:42:13,064 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-09 23:42:13,066 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-09 23:42:13,067 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-09 23:45:40,229 - __main__ - INFO - Starting Roulette Results Collector (Simplified)...
+2025-08-09 23:45:47,872 - roulette_detector_simple - INFO - Browser initialized successfully
+2025-08-09 23:45:59,460 - local_html_client - WARNING - Local HTML system not available
+2025-08-09 23:45:59,462 - __main__ - INFO - Roulette Collector started successfully!
+2025-08-09 23:45:59,462 - __main__ - INFO - Monitoring: Immersive Roulette
+2025-08-09 23:45:59,463 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-09 23:45:59,463 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-09 23:45:59,464 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-09 23:50:05,350 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-09 23:50:05,351 - __main__ - INFO - Stopping Roulette Results Collector...
+2025-08-09 23:50:09,551 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-09 23:50:12,846 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-09 23:50:12,847 - __main__ - INFO - Stopping Roulette Results Collector...
+2025-08-09 23:50:14,859 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC6AD854C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b59295424d2778bf4bd780ad8dda6dd5
+2025-08-09 23:50:19,384 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC6B102240>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b59295424d2778bf4bd780ad8dda6dd5
+2025-08-09 23:50:20,685 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026319E51730>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2e1cf7b3b6565aed78d11da4f12a190a
+2025-08-09 23:50:21,657 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-09 23:50:23,836 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AC6B11DD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b59295424d2778bf4bd780ad8dda6dd5
+2025-08-09 23:50:25,540 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002631C0947D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2e1cf7b3b6565aed78d11da4f12a190a
+2025-08-09 23:50:28,444 - roulette_detector - INFO - Browser closed successfully
+2025-08-09 23:50:28,445 - __main__ - INFO - Runtime: 0:08:15.413512
+2025-08-09 23:50:28,471 - __main__ - INFO - Final Statistics:
+2025-08-09 23:50:28,481 - __main__ - INFO -   Results Collected: 0
+2025-08-09 23:50:28,494 - __main__ - INFO -   Discord Sent: 0
+2025-08-09 23:50:28,497 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-09 23:50:28,498 - __main__ - INFO -   Errors: 0
+2025-08-09 23:50:28,498 - __main__ - INFO - Roulette Collector stopped successfully
+2025-08-09 23:50:30,349 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002631C3EDA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/2e1cf7b3b6565aed78d11da4f12a190a
+2025-08-09 23:50:34,524 - roulette_detector_simple - INFO - Browser closed successfully
+2025-08-09 23:50:34,524 - __main__ - INFO - Runtime: 0:04:35.063590
+2025-08-09 23:50:34,525 - __main__ - INFO - Final Statistics:
+2025-08-09 23:50:34,525 - __main__ - INFO -   Results Collected: 0
+2025-08-09 23:50:34,526 - __main__ - INFO -   Discord Sent: 0
+2025-08-09 23:50:34,526 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-09 23:50:34,527 - __main__ - INFO -   Errors: 0
+2025-08-09 23:50:34,527 - __main__ - INFO - Roulette Collector stopped successfully
+2025-08-09 23:54:01,390 - __main__ - INFO - Starting Manual Roulette Results Collector...
+2025-08-09 23:54:07,606 - local_html_client - WARNING - Local HTML system not available
+2025-08-09 23:54:07,607 - __main__ - INFO - Manual Roulette Collector started successfully!
+2025-08-09 23:54:07,607 - __main__ - INFO - IMPORTANT: Make sure you have Chrome open with the casino page loaded!
+2025-08-09 23:54:07,608 - __main__ - INFO - Monitoring: Immersive Roulette
+2025-08-09 23:54:07,608 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-09 23:54:07,609 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-09 23:54:07,610 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-09 23:57:37,900 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-09 23:57:37,901 - __main__ - INFO - Stopping Manual Roulette Results Collector...
+2025-08-09 23:57:40,379 - __main__ - INFO - Runtime: 0:03:32.772100
+2025-08-09 23:57:40,380 - __main__ - INFO - Final Statistics:
+2025-08-09 23:57:40,380 - __main__ - INFO -   Results Collected: 0
+2025-08-09 23:57:40,381 - __main__ - INFO -   Discord Sent: 0
+2025-08-09 23:57:40,381 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-09 23:57:40,381 - __main__ - INFO -   Errors: 0
+2025-08-09 23:57:40,382 - __main__ - INFO - Manual Roulette Collector stopped successfully
+2025-08-09 23:58:19,628 - __main__ - INFO - Starting Roulette Results Collector (Stealth Mode)...
+2025-08-09 23:58:23,476 - roulette_detector_stealth - INFO - Navigating to casino website...
+2025-08-09 23:58:28,913 - roulette_detector_stealth - WARNING - Access blocked by Cloudflare. Trying alternative approach...
+2025-08-09 23:58:28,913 - roulette_detector_stealth - INFO - Trying with different user agent...
+2025-08-09 23:58:50,832 - roulette_detector_stealth - INFO - Trying headless mode...
+2025-08-09 23:58:57,348 - __main__ - INFO - Starting Manual Roulette Results Collector...
+2025-08-09 23:59:02,982 - __main__ - ERROR - Failed to initialize browser with stealth mode
+2025-08-09 23:59:06,192 - local_html_client - WARNING - Local HTML system not available
+2025-08-09 23:59:06,193 - __main__ - INFO - Manual Roulette Collector started successfully!
+2025-08-09 23:59:06,194 - __main__ - INFO - IMPORTANT: Make sure you have Chrome open with the casino page loaded!
+2025-08-09 23:59:06,194 - __main__ - INFO - Monitoring: Immersive Roulette
+2025-08-09 23:59:06,195 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-09 23:59:06,195 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-09 23:59:06,196 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-10 00:00:45,979 - __main__ - INFO - Starting Roulette Results Collector (Stealth Mode)...
+2025-08-10 00:00:48,489 - roulette_detector_stealth - INFO - Navigating to casino website...
+2025-08-10 00:00:54,865 - roulette_detector_stealth - WARNING - Access blocked by Cloudflare. Trying alternative approach...
+2025-08-10 00:00:54,866 - roulette_detector_stealth - INFO - Trying with different user agent...
+2025-08-10 00:01:15,392 - roulette_detector_stealth - INFO - Trying headless mode...
+2025-08-10 00:01:28,492 - __main__ - ERROR - Failed to initialize browser with stealth mode
