@@ -79,3 +79,57 @@
 2025-08-10 00:00:54,866 - roulette_detector_stealth - INFO - Trying with different user agent...
 2025-08-10 00:01:15,392 - roulette_detector_stealth - INFO - Trying headless mode...
 2025-08-10 00:01:28,492 - __main__ - ERROR - Failed to initialize browser with stealth mode
+2025-08-10 01:46:55,540 - __main__ - INFO - Starting Roulette Results Collector (Working Version)...
+2025-08-10 01:46:55,543 - browser_connector - INFO - Attempting to connect to existing Chrome session...
+2025-08-10 01:47:15,904 - browser_connector - WARNING - No Chrome debug ports found. Please start Chrome with --remote-debugging-port=9222
+2025-08-10 01:47:15,905 - browser_connector - INFO - Starting Chrome with debugging enabled...
+2025-08-10 01:47:22,846 - selenium.webdriver.common.selenium_manager - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2025-08-10 01:47:29,827 - browser_connector - ERROR - Failed to start Chrome with debug: Message: session not created: Chrome failed to start: crashed.
+  (chrome not reachable)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#sessionnotcreatedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63816e415+77285]
+	GetHandleVerifier [0x0x7ff63816e470+77376]
+	(No symbol) [0x0x7ff637f39a6a]
+	(No symbol) [0x0x7ff637f7898c]
+	(No symbol) [0x0x7ff637f7278e]
+	(No symbol) [0x0x7ff637fc602e]
+	(No symbol) [0x0x7ff637fc57c0]
+	(No symbol) [0x0x7ff637fb83e3]
+	(No symbol) [0x0x7ff637f81521]
+	(No symbol) [0x0x7ff637f822b3]
+	GetHandleVerifier [0x0x7ff638451efd+3107021]
+	GetHandleVerifier [0x0x7ff63844c29d+3083373]
+	GetHandleVerifier [0x0x7ff63846bedd+3213485]
+	GetHandleVerifier [0x0x7ff63818884e+184862]
+	GetHandleVerifier [0x0x7ff63819055f+216879]
+	GetHandleVerifier [0x0x7ff638177084+113236]
+	GetHandleVerifier [0x0x7ff638177239+113673]
+	GetHandleVerifier [0x0x7ff63815e298+11368]
+	BaseThreadInitThunk [0x0x7ff8ba51259d+29]
+	RtlUserThreadStart [0x0x7ff8baf2af78+40]
+
+2025-08-10 01:47:29,837 - __main__ - ERROR - Failed to connect to browser
+2025-08-10 01:49:58,047 - __main__ - INFO - Starting Simple Roulette Results Collector...
+2025-08-10 01:50:07,641 - local_html_client - WARNING - Local HTML system not available
+2025-08-10 01:50:07,642 - __main__ - INFO - Simple Roulette Collector started successfully!
+2025-08-10 01:50:07,643 - __main__ - INFO - ============================================================
+2025-08-10 01:50:08,830 - __main__ - INFO - 1. Open Chrome and go to the casino
+2025-08-10 01:50:08,830 - __main__ - INFO - 2. Log in to your account
+2025-08-10 01:50:08,832 - __main__ - INFO - 3. Navigate to Immersive Roulette table
+2025-08-10 01:50:08,833 - __main__ - INFO - 4. Keep the browser window open
+2025-08-10 01:50:08,850 - __main__ - INFO - 5. The collector will monitor your session
+2025-08-10 01:50:08,854 - __main__ - INFO - ============================================================
+2025-08-10 01:50:08,856 - __main__ - INFO - Monitoring: Immersive Roulette
+2025-08-10 01:50:08,856 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-10 01:50:08,858 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-10 01:50:08,876 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-10 01:53:16,229 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-10 01:53:16,230 - __main__ - INFO - Stopping Simple Roulette Results Collector...
+2025-08-10 01:53:26,026 - __main__ - INFO - Runtime: 0:03:18.383972
+2025-08-10 01:53:26,027 - __main__ - INFO - Final Statistics:
+2025-08-10 01:53:26,029 - __main__ - INFO -   Results Collected: 0
+2025-08-10 01:53:26,121 - __main__ - INFO -   Discord Sent: 0
+2025-08-10 01:53:26,124 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-10 01:53:26,147 - __main__ - INFO -   Errors: 0
+2025-08-10 01:53:26,151 - __main__ - INFO - Simple Roulette Collector stopped successfully

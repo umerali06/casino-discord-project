@@ -1,15 +1,15 @@
 @echo off
 echo ========================================
 echo Evolution Gaming Roulette Collector
-echo Starting (Stealth Mode)...
+echo Starting (Simple Version)...
 echo ========================================
 echo.
 
-echo Starting the roulette results collector with stealth mode...
-echo This version bypasses Cloudflare and anti-bot protections.
+echo Starting the roulette results collector...
+echo This version provides clear setup instructions.
 echo.
 
-python main_stealth.py
+python simple_collector.py
 
 echo.
 echo Collector stopped.
