@@ -85,7 +85,7 @@ class BrowserConnector:
             self.logger.info(f"Connected to Chrome session. Current URL: {current_url}")
             
             # Check if we're on the casino page
-            if "seguro.bet.br" in current_url or "evolution" in current_url.lower():
+            if "betfury.io" in current_url or "evolution" in current_url.lower():
                 self.logger.info("Already on casino page!")
                 self.session_start_time = datetime.now()
                 return True
@@ -147,7 +147,9 @@ class BrowserConnector:
                 "sorry, you have been blocked",
                 "cloudflare",
                 "attention required",
-                "checking your browser"
+                "checking your browser",
+                "access denied",
+                "blocked"
             ]
             
             for indicator in blocked_indicators:
@@ -163,7 +165,7 @@ class BrowserConnector:
         try:
             # Check if we're still on the right page
             current_url = self.driver.current_url
-            if "seguro.bet.br" not in current_url and "evolution" not in current_url.lower():
+            if "betfury.io" not in current_url and "evolution" not in current_url.lower():
                 self.logger.warning("Not on casino page anymore")
                 return None
             
@@ -180,13 +182,21 @@ class BrowserConnector:
             # Wait for game elements to load
             wait = WebDriverWait(self.driver, 10)
             
-            # Comprehensive list of selectors for Evolution Gaming roulette
+            # Comprehensive list of selectors for Evolution Gaming roulette on BetFury
             selectors = [
-                # Evolution Gaming specific selectors
+                # BetFury specific selectors
                 ".evo-roulette-result",
                 ".evo-result-number",
                 ".evo-winning-number",
                 ".evo-game-result",
+                ".evo-roulette-number",
+                ".evo-result-display",
+                
+                # Evolution Gaming specific selectors
+                ".evolution-roulette-result",
+                ".evolution-result-number",
+                ".evolution-winning-number",
+                ".evolution-game-result",
                 
                 # Generic roulette selectors
                 ".result-number",
@@ -200,6 +210,7 @@ class BrowserConnector:
                 "[data-result]",
                 "[data-number]",
                 "[data-winning-number]",
+                "[data-roulette-result]",
                 
                 # Display elements
                 ".number-display",
@@ -214,7 +225,19 @@ class BrowserConnector:
                 ".winning-result",
                 ".last-winning-number",
                 ".current-result",
-                ".displayed-number"
+                ".displayed-number",
+                
+                # BetFury specific variations
+                ".bf-roulette-result",
+                ".bf-result-number",
+                ".bf-winning-number",
+                ".bf-game-result",
+                
+                # Live game selectors
+                ".live-game-result",
+                ".live-roulette-result",
+                ".live-result-number",
+                ".live-winning-number"
             ]
             
             for selector in selectors:

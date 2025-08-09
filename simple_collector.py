@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Roulette Results Collector
+Simple Roulette Results Collector for BetFury
 Provides clear instructions and manual setup
 """
 
@@ -18,7 +18,7 @@ from local_html_client import LocalHTMLClient
 from roulette_result import RouletteResult
 
 class SimpleRouletteCollector:
-    """Simple collector with manual setup instructions"""
+    """Simple collector with manual setup instructions for BetFury"""
     
     def __init__(self):
         self.discord = DiscordNotifier()
@@ -57,7 +57,7 @@ class SimpleRouletteCollector:
     def start(self) -> bool:
         """Start the simple collector"""
         try:
-            self.logger.info("Starting Simple Roulette Results Collector...")
+            self.logger.info("Starting Simple Roulette Results Collector for BetFury...")
             
             # Create necessary directories
             Config.create_directories()
@@ -73,14 +73,15 @@ class SimpleRouletteCollector:
             
             self.logger.info("Simple Roulette Collector started successfully!")
             self.logger.info("=" * 60)
-            self.logger.info("📋 MANUAL SETUP REQUIRED:")
-            self.logger.info("1. Open Chrome and go to the casino")
-            self.logger.info("2. Log in to your account")
-            self.logger.info("3. Navigate to Immersive Roulette table")
+            self.logger.info("MANUAL SETUP REQUIRED FOR BETFURY:")
+            self.logger.info("1. Open Chrome and go to BetFury")
+            self.logger.info("2. Log in to your BetFury account")
+            self.logger.info("3. Navigate to Immersive Roulette by Evolution")
             self.logger.info("4. Keep the browser window open")
             self.logger.info("5. The collector will monitor your session")
             self.logger.info("=" * 60)
             self.logger.info(f"Monitoring: {Config.TABLE_NAME}")
+            self.logger.info(f"Casino URL: {Config.CASINO_URL}")
             self.logger.info(f"Discord Webhook: {Config.DISCORD_WEBHOOK_URL}")
             self.logger.info(f"Local HTML: {Config.LOCAL_HTML_ENDPOINT}")
             self.logger.info("Press Ctrl+C to stop")
@@ -126,7 +127,7 @@ class SimpleRouletteCollector:
         # This simulates what would happen in a real implementation
         # The actual implementation would:
         # 1. Connect to existing Chrome session
-        # 2. Monitor DOM for result elements
+        # 2. Monitor DOM for result elements on BetFury
         # 3. Extract and validate results
         
         # For demonstration, we'll just return None to show the system is running
@@ -224,18 +225,18 @@ class SimpleRouletteCollector:
 
 def main():
     """Main entry point"""
-    print("🎰 Simple Roulette Results Collector")
-    print("=" * 50)
-    print("📋 This collector provides the infrastructure for")
-    print("   roulette result collection and distribution.")
+    print("Simple Roulette Results Collector for BetFury")
+    print("=" * 60)
+    print("This collector provides the infrastructure for")
+    print("roulette result collection from BetFury.")
     print()
-    print("🔧 To complete the setup:")
-    print("1. Open Chrome and navigate to the casino")
-    print("2. Log in to your account")
-    print("3. Open the Immersive Roulette table")
+    print("To complete the setup:")
+    print("1. Open Chrome and navigate to BetFury")
+    print("2. Log in to your BetFury account")
+    print("3. Open Immersive Roulette by Evolution")
     print("4. Keep the browser window open")
     print("5. The collector will monitor your session")
-    print("=" * 50)
+    print("=" * 60)
     
     collector = SimpleRouletteCollector()
     

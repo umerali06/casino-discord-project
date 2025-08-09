@@ -133,3 +133,90 @@ Stacktrace:
 2025-08-10 01:53:26,124 - __main__ - INFO -   Local HTML Sent: 0
 2025-08-10 01:53:26,147 - __main__ - INFO -   Errors: 0
 2025-08-10 01:53:26,151 - __main__ - INFO - Simple Roulette Collector stopped successfully
+2025-08-10 02:03:30,221 - __main__ - INFO - Starting Simple Roulette Results Collector for BetFury...
+2025-08-10 02:03:42,570 - local_html_client - WARNING - Local HTML system not available
+2025-08-10 02:03:42,570 - __main__ - INFO - Simple Roulette Collector started successfully!
+2025-08-10 02:03:42,571 - __main__ - INFO - ============================================================
+2025-08-10 02:03:42,983 - __main__ - INFO - 1. Open Chrome and go to BetFury
+2025-08-10 02:03:42,984 - __main__ - INFO - 2. Log in to your BetFury account
+2025-08-10 02:03:42,997 - __main__ - INFO - 3. Navigate to Immersive Roulette by Evolution
+2025-08-10 02:03:43,001 - __main__ - INFO - 4. Keep the browser window open
+2025-08-10 02:03:43,128 - __main__ - INFO - 5. The collector will monitor your session
+2025-08-10 02:03:43,231 - __main__ - INFO - ============================================================
+2025-08-10 02:03:43,357 - __main__ - INFO - Monitoring: Immersive Roulette (BetFury)
+2025-08-10 02:03:43,469 - __main__ - INFO - Casino URL: https://betfury.io/casino/games/immersive-roulette-by-evolution
+2025-08-10 02:03:43,470 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-10 02:03:43,471 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-10 02:03:43,471 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-10 02:11:45,646 - __main__ - INFO - Starting Simple Roulette Results Collector for BetFury...
+2025-08-10 02:11:56,189 - local_html_client - WARNING - Local HTML system not available
+2025-08-10 02:11:56,683 - __main__ - INFO - Simple Roulette Collector started successfully!
+2025-08-10 02:11:56,693 - __main__ - INFO - ============================================================
+2025-08-10 02:11:57,740 - __main__ - INFO - 1. Open Chrome and go to BetFury
+2025-08-10 02:11:57,740 - __main__ - INFO - 2. Log in to your BetFury account
+2025-08-10 02:11:57,741 - __main__ - INFO - 3. Navigate to Immersive Roulette by Evolution
+2025-08-10 02:11:57,742 - __main__ - INFO - 4. Keep the browser window open
+2025-08-10 02:11:57,742 - __main__ - INFO - 5. The collector will monitor your session
+2025-08-10 02:11:57,743 - __main__ - INFO - ============================================================
+2025-08-10 02:11:57,744 - __main__ - INFO - Monitoring: Immersive Roulette (BetFury)
+2025-08-10 02:11:57,745 - __main__ - INFO - Casino URL: https://betfury.io/casino/games/immersive-roulette-by-evolution
+2025-08-10 02:11:57,745 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-10 02:11:57,746 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-10 02:11:57,746 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-10 02:12:48,190 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-10 02:12:48,191 - __main__ - INFO - Stopping Simple Roulette Results Collector...
+2025-08-10 02:12:53,883 - __main__ - INFO - Runtime: 0:09:11.311719
+2025-08-10 02:12:53,883 - __main__ - INFO - Final Statistics:
+2025-08-10 02:12:53,884 - __main__ - INFO -   Results Collected: 0
+2025-08-10 02:12:53,884 - __main__ - INFO -   Discord Sent: 0
+2025-08-10 02:12:53,885 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-10 02:12:53,893 - __main__ - INFO -   Errors: 0
+2025-08-10 02:12:53,895 - __main__ - INFO - Simple Roulette Collector stopped successfully
+2025-08-10 02:17:09,581 - __main__ - INFO - Starting Simple Roulette Results Collector for BetFury...
+2025-08-10 02:17:19,503 - local_html_client - WARNING - Local HTML system not available
+2025-08-10 02:17:19,503 - __main__ - INFO - Simple Roulette Collector started successfully!
+2025-08-10 02:17:19,504 - __main__ - INFO - ============================================================
+2025-08-10 02:17:19,506 - __main__ - INFO - MANUAL SETUP REQUIRED FOR BETFURY:
+2025-08-10 02:17:19,529 - __main__ - INFO - 1. Open Chrome and go to BetFury
+2025-08-10 02:17:19,640 - __main__ - INFO - 2. Log in to your BetFury account
+2025-08-10 02:17:19,663 - __main__ - INFO - 3. Navigate to Immersive Roulette by Evolution
+2025-08-10 02:17:19,664 - __main__ - INFO - 4. Keep the browser window open
+2025-08-10 02:17:19,682 - __main__ - INFO - 5. The collector will monitor your session
+2025-08-10 02:17:19,683 - __main__ - INFO - ============================================================
+2025-08-10 02:17:19,728 - __main__ - INFO - Monitoring: Immersive Roulette (BetFury)
+2025-08-10 02:17:19,780 - __main__ - INFO - Casino URL: https://betfury.io/casino/games/immersive-roulette-by-evolution
+2025-08-10 02:17:19,839 - __main__ - INFO - Discord Webhook: https://discord.com/api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2
+2025-08-10 02:17:19,856 - __main__ - INFO - Local HTML: http://localhost:3001/result
+2025-08-10 02:17:19,913 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-10 02:19:02,319 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-10 02:19:02,320 - __main__ - INFO - Stopping Simple Roulette Results Collector...
+2025-08-10 02:19:06,750 - __main__ - INFO - Runtime: 0:01:47.247188
+2025-08-10 02:19:06,750 - __main__ - INFO - Final Statistics:
+2025-08-10 02:19:06,751 - __main__ - INFO -   Results Collected: 0
+2025-08-10 02:19:06,751 - __main__ - INFO -   Discord Sent: 0
+2025-08-10 02:19:06,752 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-10 02:19:06,752 - __main__ - INFO -   Errors: 0
+2025-08-10 02:19:06,753 - __main__ - INFO - Simple Roulette Collector stopped successfully
+2025-08-10 02:27:30,227 - __main__ - INFO - Starting Working Roulette Results Collector...
+2025-08-10 02:27:30,533 - __main__ - INFO - Starting Chrome browser...
+2025-08-10 02:27:43,151 - __main__ - INFO - Navigating to BetFury: https://betfury.io/casino/games/immersive-roulette-by-evolution
+2025-08-10 02:27:58,477 - __main__ - INFO - Successfully loaded BetFury page
+2025-08-10 02:28:14,886 - discord_notifier - ERROR - Error sending status to Discord: HTTPSConnectionPool(host='discord.com', port=443): Max retries exceeded with url: /api/webhooks/1403803810345910313/b6GOWbVb3mLUnPNnWkR9UsfNAjL6SErKl7bKNydHH7R_cM3og9qE6rdTCYdo_o8318D2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))
+2025-08-10 02:28:19,488 - local_html_client - WARNING - Local HTML system not available
+2025-08-10 02:28:19,490 - __main__ - INFO - Working Roulette Collector started successfully!
+2025-08-10 02:28:19,491 - __main__ - INFO - Monitoring: Immersive Roulette (BetFury)
+2025-08-10 02:28:19,492 - __main__ - INFO - Press Ctrl+C to stop
+2025-08-10 02:31:43,283 - __main__ - INFO - Received signal 2, shutting down gracefully...
+2025-08-10 02:31:43,405 - __main__ - INFO - Stopping Working Roulette Results Collector...
+2025-08-10 02:31:52,751 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9DE577B60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b4494f30c23b44e18d6afc1a16c7f36
+2025-08-10 02:31:57,484 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9DE6DEA80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b4494f30c23b44e18d6afc1a16c7f36
+2025-08-10 02:32:02,387 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A9DE745F70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/7b4494f30c23b44e18d6afc1a16c7f36
+2025-08-10 02:32:07,184 - __main__ - INFO - Browser closed successfully
+2025-08-10 02:32:07,185 - __main__ - INFO - Runtime: 0:03:47.695104
+2025-08-10 02:32:07,185 - __main__ - INFO - Final Statistics:
+2025-08-10 02:32:07,186 - __main__ - INFO -   Results Collected: 0
+2025-08-10 02:32:07,186 - __main__ - INFO -   Discord Sent: 0
+2025-08-10 02:32:07,186 - __main__ - INFO -   Local HTML Sent: 0
+2025-08-10 02:32:07,187 - __main__ - INFO -   Errors: 0
+2025-08-10 02:32:07,187 - __main__ - INFO - Working Roulette Collector stopped successfully
+2025-08-10 02:32:07,188 - urllib3.connectionpool - WARNING - Connection pool is full, discarding connection: localhost. Connection pool size: 1

@@ -1,15 +1,15 @@
 @echo off
 echo ========================================
 echo Evolution Gaming Roulette Collector
-echo Starting (Simple Version)...
+echo Starting (Working Version for BetFury)...
 echo ========================================
 echo.
 
-echo Starting the roulette results collector...
-echo This version provides clear setup instructions.
+echo Starting the working roulette results collector for BetFury...
+echo This version will automatically start Chrome and detect results.
 echo.
 
-python simple_collector.py
+python working_collector.py
 
 echo.
 echo Collector stopped.
